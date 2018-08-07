@@ -1,13 +1,13 @@
 body{
     margin: 0;
     background-color: darkgrey;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Do Hyeon', sans-serif;
 }
 
 h1, h2{
-    color: fuchsia;
+    color: black;
     text-align: center;
-    font-weight: 800;
+    font-weight: 820;
 }
 
 header{
@@ -16,20 +16,68 @@ header{
     align-items: center;
     justify-content: center;
     height: 100px;
-        }
+    
+    background-color: black;
+    flex-direction: column   }
+.LOGO{
+    height: 100px;
+}
+.espaco{
+    display:flex;
+    margin: 0 auto;
+}
+.viddeo{
+    display:flex;
+    margin: 0 auto;
+}
+.segundafr{
+    display:flex;
+    margin: 0 auto;
+}
+
+.menu a{
+font-size: 19px;
+text-decoration: none;
+margin-left: 10px;
+color: rgb(199, 99, 99);
+}
 
 p{
     margin-left: 10px;
 }
+.legenda{
+    color: red
+    font-size: 15px;
+    font-style: italic;
+}
+.rodape{
+    background-color: black;
+    display: flex;
+    height: 150px;
+}
+#especial{
+    border: solid black 3px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 15px;
+}
 
 button{
-    border: solid blue 2px;
-    background-color: white;
+    border: solid black 2px;
+    background-color: rgb(199, 99, 99);
     border-radius: 10%;
     padding: 10px;
-    color: blue;
+    color: black;
 
 
 
 
 }
+footer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   
+  
+    height: 100px;
+    background-color: rgb(54, 48, 48);    flex-direction: row  }
